@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 public class TemperatureService {
 
     public double convertToCelsius(double temperatureCelsius) {
-        return (temperatureCelsius * 9/5) + 32;
+        return (temperatureCelsius * 5) + 32;
     }
 }
